@@ -17,7 +17,7 @@ class StackUsingQueue2 {
         while (!q1.isEmpty()) {                
             q2.add(q1.remove());
         }
-
+        swap();
     }
 
     private void swap() {
